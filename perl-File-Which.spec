@@ -1,6 +1,6 @@
 Name:           perl-File-Which
 Version:        1.09
-Release:        12%{?dist}
+Release:        11%{?dist}
 Summary:        Portable implementation of the 'which' utility
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -51,9 +51,6 @@ make test
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.09-12
-- Mass rebuild 2013-12-27
-
 * Wed Oct 24 2012 Petr Šabata <contyk@redhat.com> - 1.09-11
 - Specify all dependencies
 - Modernize spec
